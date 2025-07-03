@@ -1,0 +1,17 @@
+# Ignore model files
+app/trained_model/*.h5
+
+# Ignore credentials (if sensitive)
+app/credentials.toml
+
+# Ignore test images
+test_images/
+
+# Ignore IDE and system files
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
