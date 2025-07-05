@@ -1,4 +1,5 @@
 import os
+os.environ["HOME"] = os.getcwd()
 import json
 from PIL import Image
 
