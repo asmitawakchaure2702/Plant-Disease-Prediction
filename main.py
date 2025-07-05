@@ -1,5 +1,6 @@
 import os
 os.environ["HOME"] = os.getcwd()
+os.environ["STREAMLIT_CONFIG_DIR"] = os.path.join(os.getcwd(), ".streamlit")
 import json
 from PIL import Image
 
